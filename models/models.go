@@ -1,4 +1,4 @@
-package main
+package models
 
 type Recipe struct {
 	ID          string   `json:"id"`
