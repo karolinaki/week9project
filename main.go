@@ -8,6 +8,7 @@ import (
 	"os"
 
 	"github.com/gorilla/mux"
+	"github.com/karolinaki/week9project/blob/main/routes.go"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
