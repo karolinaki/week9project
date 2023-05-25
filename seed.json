@@ -1,31 +1,31 @@
 [
   {
-    "id": "1",
+    "ID": "1",
     "name": "Pasta Carbonara",
     "ingredients": ["pasta", "bacon", "eggs", "cheese"],
     "cookingTime": 30,
-    "imgURL" : "https://images.unsplash.com/photo-1608756687911-aa1599ab3bd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    "imgURL" : "https://images.unsplash.com/photo-1608756687911-aa1599ab3bd9?ixlib=rb-4.0.3&ixID=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
 
   },
   {
-    "id": "2",
+    "ID": "2",
     "name": "Chicken Stir-Fry",
     "ingredients": ["chicken", "vegetables", "soy sauce"],
     "cookingTime": 20,
     "imgURL": "https://images.immediate.co.uk/production/volatile/sites/30/2018/05/Chicken-stir-fry-recipes-0d2adc1.jpg?quality=90&resize=556,505"
   },
   {
-    "id": "3",
+    "ID": "3",
     "name": "Crab Krabby patty",
     "ingredients": ["crab meat", "breadcrumbs", "Mr Krab's secret seasoning", "mayo"],
     "cookingTime" : 15,
-    "imgURL" : "https://www.wikihow.com/images/thumb/1/19/Make-a-Krabby-Patty-Step-7-Version-7.jpg/aid1004609-v4-728px-Make-a-Krabby-Patty-Step-7-Version-7.jpg.webp"
+    "imgURL" : "https://www.wikihow.com/images/thumb/1/19/Make-a-Krabby-Patty-Step-7-Version-7.jpg/aID1004609-v4-728px-Make-a-Krabby-Patty-Step-7-Version-7.jpg.webp"
   },
    {
-    "id": "4",
+    "ID": "4",
     "name": "The OG Krabby patty",
     "ingredients": ["beef meat","Mr Krab's secret seasoning", "lettuce", "bacon", "cheese"],
     "cookingTime" : 15,
-    "imgURL" : "https://static.wikia.nocookie.net/spongebob/images/2/2f/Krusty_Krab_Training_Video_081.png/revision/latest?cb=20211125123843"
+    "imgURL" : "https://static.wikia.nocookie.net/spongebob/images/2/2f/Krusty_Krab_Training_VIDeo_081.png/revision/latest?cb=20211125123843"
   }
 ]

@@ -16,10 +16,12 @@ import (
 
 // NewDynamoDB initializes a new DynamoDB client and inserts seed data.
 func NewDynamoDB(seedData []models.Recipe) *dynamodb.DynamoDB {
-	sess, err := session.NewSession(&aws.Config{
-		Region: aws.String("us-west-2"),
+	sess, err := session.NewSessionWithOptions(session.Options{
+		Profile: "MrKrabbs", // Specify the profile name
+		Config: aws.Config{
+			Region: aws.String("us-east-1"),
+		},
 	})
-
 	if err != nil {
 		// Handle session creation error
 		fmt.Println("Error creating session:", err)
@@ -45,7 +47,7 @@ func insertSeedData(svc dynamodbiface.DynamoDBAPI, seedData []models.Recipe) err
 
 		input := &dynamodb.PutItemInput{
 			Item:      av,
-			TableName: aws.String("YourTableName"),
+			TableName: aws.String("Recipes"),
 		}
 
 		_, err = svc.PutItem(input)
